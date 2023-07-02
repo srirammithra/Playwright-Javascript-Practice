@@ -1,0 +1,20 @@
+{
+  "name": "playwrightpracticemar2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:web": "npx playwright test --config=playwright.config.js --project=Chromium --grep @WEB",
+    "test:chrome": "npx playwright test --config=playwright.config.js --project=Chromium",
+    "test:firefox": "npx playwright test --config=playwright.config.js --project=Firefox",
+    "test:edge": "npx playwright test --config=playwright.config.js --project=Edge"
+  },
+  "keywords": [],
+  "author": "SRIRAM MITHRA G",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.35.1",
+    "allure-playwright": "^2.4.0"
+  }
+}
